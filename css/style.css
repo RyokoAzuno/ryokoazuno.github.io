@@ -1,0 +1,56 @@
+.bg-thirdly {
+    background-color: #48b9c7 !important;
+}
+
+hr.star-light-custom,
+hr.star-dark-custom {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 0.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    hr.star-light-custom:after,
+    hr.star-dark-custom:after {
+        position: relative;
+        top: -.8em;
+        display: inline-block;
+        padding: 0 0.25em;
+        content: '\f005';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+hr.star-light-custom {
+    border-color: #fff;
+}
+
+    hr.star-light-custom:after {
+        color: #fff;
+        background-color: #48b9c7;
+    }
+
+hr.star-dark-custom {
+    border-color: #2C3E50;
+}
+
+    hr.star-dark-custom:after {
+        color: #2C3E50;
+        background-color: white;
+    }
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #48b9c7;
+}
+
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: #fff;
+        background: #48b9c7;
+    }
